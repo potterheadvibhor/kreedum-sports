@@ -45,6 +45,9 @@ kreedum-sports/
 ├── postcss.config.js
 ├── vercel.json                    # SPA rewrite rule for Vercel
 ├── .env.example                   # copy to .env, fill in when the backend exists
+exists
+├── docs/
+│   └── STYLE_GUIDE.md              # all fonts & colors used, and where — 
 ├── public/
 │   ├── favicon.png
 │   └── _redirects                 # SPA rewrite rule for Netlify
@@ -106,6 +109,12 @@ kreedum-sports/
   and wiring a `<Route>` in `App.jsx` — existing sections are untouched.
 - **`services/api.js`** — nothing calls this yet. It exists so that wiring
   up a backend later is additive, not another refactor.
+
+
+
+### Style guide
+
+docs/STYLE_GUIDE.md documents every color and font currently used on the site — the brand tokens in COLORS, accent colors, overlay opacities, the type scale, and which Google Fonts weights are loaded. Check it before adding a new color or font, and keep it updated when you do.
 
 ## Connecting a backend later
 
