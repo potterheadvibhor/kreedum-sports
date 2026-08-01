@@ -6,7 +6,7 @@ import { PHONE_NUMBER_DISPLAY, PHONE_NUMBER_TEL } from "../../config/contact";
 import { useScrolled } from "../../hooks/useScrolled";
 import { scrollToId } from "../../utils/scrollToId";
 import { PhoneIcon } from "../common/Icons";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/logo.png";
 
 
 export default function Nav() {

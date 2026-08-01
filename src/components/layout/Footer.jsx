@@ -1,6 +1,6 @@
 import { COLORS } from "../../config/theme";
 import SocialLinks from "../common/SocialLinks";
-import logo from "../../assets/logo.jpg";
+import logo from "../../assets/logo.png";
 
 
 export default function Footer() {
@@ -17,7 +17,7 @@ export default function Footer() {
           <SocialLinks />
         </div>
         <p className="font-body text-xs text-center md:text-right" style={{ color: "rgba(255,255,255,0.45)" }}>
-          © {new Date().getFullYear()} Kreedum International Private Limited. Aminabad, Lucknow.
+          © {new Date().getFullYear()} Kreedum International Private Limited
         </p>
       </div>
     </footer>

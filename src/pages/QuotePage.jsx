@@ -12,7 +12,7 @@ import {
 import { openWhatsApp, isValidIndianMobile } from "../utils/whatsapp";
 import { PhoneIcon, CheckCircleIcon } from "../components/common/Icons";
 import Footer from "../components/layout/Footer";
-import logo from "../assets/logo.jpg";
+import logo from "../assets/logo.png";
 
 
 function QuoteNav() {
