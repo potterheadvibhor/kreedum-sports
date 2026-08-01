@@ -36,7 +36,7 @@ export default function Nav() {
             className="font-display font-bold text-lg md:text-xl tracking-tight"
             style={{ color: scrolled ? COLORS.navy : COLORS.white }}
           >
-            Kreedum<span style={{ color: COLORS.blue }}>Sports</span>
+            Kreedum<span style={{ color: COLORS.blue }}>Develop</span>
           </span>
         </button>
 
