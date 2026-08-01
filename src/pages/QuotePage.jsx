@@ -13,6 +13,8 @@ import { openWhatsApp, isValidIndianMobile } from "../utils/whatsapp";
 import { PhoneIcon, CheckCircleIcon } from "../components/common/Icons";
 import Footer from "../components/layout/Footer";
 import logo from "../assets/logo.png";
+import { getCurrentDateAndTime } from "../components/common/SubmitedAt";
+
 
 
 function QuoteNav() {
@@ -141,6 +143,8 @@ export default function QuotePage() {
     setErrors({});
 
     const text = `New Gym Equipment Quote Request
+
+Date & Time: ${getCurrentDateAndTime()}
 
 Name: ${form.name}
 Phone: ${form.phone}

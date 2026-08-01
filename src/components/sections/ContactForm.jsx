@@ -3,6 +3,7 @@ import { COLORS } from "../../config/theme";
 import { WHATSAPP_NUMBER } from "../../config/contact";
 import { CONTACT_INQUIRY_TYPES } from "../../data/quoteFormOptions";
 import { openWhatsApp, isValidIndianMobile } from "../../utils/whatsapp";
+import { getCurrentDateAndTime } from "../common/SubmitedAt";
 
 
 export default function ContactForm() {
@@ -63,7 +64,12 @@ export default function ContactForm() {
 
     setErrors({});
 
+
+
+
 const text = `New Contact Request
+
+Date & Time: ${getCurrentDateAndTime()}
 
 Name: ${form.name}
 Phone: ${form.phone}
