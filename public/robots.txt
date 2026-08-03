@@ -1,0 +1,6 @@
+# robots.txt for Kreedum Sports
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.kreedum.com/sitemap.xml
