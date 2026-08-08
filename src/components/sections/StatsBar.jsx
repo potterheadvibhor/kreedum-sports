@@ -3,7 +3,7 @@ import { COLORS } from "../../config/theme";
 
 export default function StatsBar() {
   const stats = [
-    { value: "11+", label: "Years in Lucknow" },
+    { value: "36+", label: "Years in Lucknow" },
     { value: "2", label: "Store Locations" },
     { value: "4.7★", label: "Customer Rating" },
     { value: "B2B + Retail", label: "We Serve Both" },

@@ -29,7 +29,7 @@ export default function Hero() {
             className="font-mono text-xs tracking-widest uppercase mb-5 inline-block px-3 py-1 rounded-full"
             style={{ color: COLORS.white, backgroundColor: "rgba(255,255,255,0.1)" }}
           >
-            Lucknow · Since 2015
+            Lucknow · Since 1990
           </div>
           <h1 className="font-display font-bold text-4xl md:text-6xl leading-[1.05] mb-6" style={{ color: COLORS.white }}>
             Equipment for

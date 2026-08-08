@@ -175,7 +175,7 @@ ${form.message}`;
                   className="font-mono text-xs uppercase tracking-wide block mb-2"
                   style={{ color: "rgba(255,255,255,0.6)" }}
                 >
-                  Phone
+                  Phone No
                 </label>
 
                 <input
@@ -193,7 +193,7 @@ ${form.message}`;
                     backgroundColor: "rgba(255,255,255,0.95)",
                     color: COLORS.navy,
                   }}
-                  placeholder="9876543210"
+                  placeholder="Enter Your Phone No "
                 />
 
                 {errors.phone && (
@@ -286,14 +286,6 @@ ${form.message}`;
             </button>
           </form>
         )}
-
-        <p
-          className="font-mono text-xs text-center mt-6"
-          style={{ color: "rgba(255,255,255,0.4)" }}
-        >
-          Submitting opens a pre-filled WhatsApp chat — no email account
-          needed.
-        </p>
       </div>
     </section>
   );
